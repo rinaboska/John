@@ -1,0 +1,40 @@
+.carousel {
+    padding: 81px 0;
+    &__inner {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+    }
+    .prev {
+        position: absolute;
+        top: 50%;
+        left: -66px;
+        border: none;
+        background-color: #ffffff;
+        transform: translateY(-50%);
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .next {
+        position: absolute;
+        border: none;
+        background-color: #ffffff;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -66px;
+        left: auto;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .tns-item {
+        img {
+            /*----------Выравниваем по центру слайдер, класс прописан в карусели*/
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
